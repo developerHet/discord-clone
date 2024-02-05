@@ -21,7 +21,7 @@ export const NavigationItem = ({ id, imageUrl, name }: NavigationItemProps) => {
   };
 
   return (
-    <ActionTooltip side="right" align="center" lable={name}>
+    <ActionTooltip side="right" align="center" label={name}>
       <button
         onClick={() => {
           onClick();
